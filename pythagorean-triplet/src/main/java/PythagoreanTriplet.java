@@ -9,21 +9,5 @@ class PythagoreanTriplet{
         this.b = arr[1];
         this.c = arr[2];
     }
-    void makeTripletsList(){
-        return;
-    }
-    void withFactorsLessThanOrEqualTo(int n){
-        return;
-    }
-    void thatSumTo(int n){
-        this.n = n;
-    }
     
-    public static void main (String args []){
-        // System.out.println(new PythagoreanTriplet(4,2,1).a);
-        List<PythagoreanTriplet> expected
-                = Collections.singletonList(new PythagoreanTriplet(200, 375, 425));
-
-        System.out.println(expected);
-    }
 }
